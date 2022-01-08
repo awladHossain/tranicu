@@ -1,0 +1,628 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing-banner{
+    height: 500px;
+    background: black;
+}
+#particles-js{
+    height: 100%;
+}
+.landing-banner h2{
+    margin-top: 80px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 53px;
+    color: #FFFFFF;
+}
+.landing-banner input{
+    background: #FFFFFF;
+    border-radius: 10px 0px 0px 10px;
+    width: 463px;
+    height: 75px;
+    border: none;
+    outline: none;
+}
+.landing-banner input::placeholder{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #C2C2C2;
+}
+.landing-banner button{
+    width: 177px;
+    height: 75px;;   
+    margin-left: -3px;
+    border: none;
+    outline: none;
+    font-family: Poppins;
+    font-size: 22px;
+    color: #FFFFFF;
+    background: #FF7A00;
+    border-radius: 0px 10px 10px 0px;
+    
+}
+.landing-service .card{
+    width: 346px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    border: none;
+}
+.landing-service .card img{
+    Width: 72.67px;
+    Height: 42.07px;
+    margin: auto;
+}
+.landing-service .card h4{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #333333;
+    
+}
+.landing-service .card p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #555555;
+
+}
+
+.landing-content .card{
+    width: 657px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    border: none;
+    margin-left: -150px;
+}
+.landing-content .card .top-content h6{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FF7A00;
+
+}
+.landing-content .card .top-content p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+    padding-left: 0;
+
+}
+.landing-content .card img{
+    width: 19px;
+    height: 18px;
+    margin: 0;
+    position: absolute;
+}  
+
+.landing-content .card p{
+    position: relative;
+    top: 0;
+    padding-left: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+
+}
+.easy-way{
+    background: url(img/landingp/Rectangle\ 28.png);
+   
+}
+.easy-way p{
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    
+}
+.easy-way h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 45px;
+    color: #FFFFFF;
+    
+}
+.easy-way a{
+    padding: 15px 40px;
+    background: #FF7A00;
+    border-radius: 3px;
+    font-family: Poppins;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.truck-category .truck-content h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+.truck-category .truck-content h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    color: #FF7A00;
+}
+.truck-category .show h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #555555;
+
+}
+.truck-category h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #555555;
+
+}
+.truck-category h5{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #555555;
+
+}
+.truck-category p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 22px;
+    color: #555555;
+
+
+}
+.truck-category a{
+    padding: 10px 30px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #FF7A00;
+
+}
+/* service page */
+
+.service-banner{
+    height: 200px;
+    background: black;
+}
+.service-banner h1{
+    margin-top: 80px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+#particles-js{
+    height: 100%;
+}
+.driver .driver-content h4{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #555555;
+}
+.image-content h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #555555;
+}
+.image-content h5{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #555555;
+
+}
+.image-content p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #555555;
+
+}
+.image-content a{
+    background: #FF7A00;
+    padding: 10px 25px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+/* registration */
+.registration-banner{
+    height: 300px;
+    background: rgb(13, 3, 58);
+}
+.registration-card .card{
+    background: #F2F2F2;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    border: none;
+    margin-top: -150px;
+}
+.registration-card .card h4{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FF7A00;
+}
+.registration-card .card input{
+    background: #FFFFFF;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    height: 50px;
+}
+.registration-card .card input::placeholder{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #A7A7A7;
+
+}
+.registration-card .card textarea{
+   border: none;
+   background: #ffffff;
+
+}
+.registration-card .card a{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 10px 25px;
+    background: #FF7A00;
+    border-radius: 3px;
+
+}
+/* loging page */
+.loging-banner{
+    height: 700px;
+    background: #3d0449;
+}
+.loging-banner .card{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    border: none;
+  
+}
+.loging-banner .card h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.loging-banner .card input{
+    background: #FFFFFF;
+border-radius: 100px;
+
+}
+.loging-banner .card input::placeholder{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #C5C5C5;
+    
+}
+.loging-banner .card button{
+    background: #FF7A00;
+    border-radius: 100px;
+    padding: 20px 0;
+    border: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+.loging-banner .card p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+}
+.loging-banner .card span{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+/* blog */
+.blog-media h4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 125% */
+
+
+    color: #000000;
+
+}
+.blog-media h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    /* identical to box height */
+    
+    
+    color: #FF7A00;
+}
+.slid-content-1 p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #555555;
+}
+.slid-content-2 p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #555555;
+}
+.landing-blog .blog-one{
+    background: url("img/Rectangle\ 9.png");
+    background-size: cover;
+    height: 318px;
+}
+.landing-blog .blog-one .blog-one-content{
+    padding-top: 200px;
+   
+}
+.landing-blog .blog-one .blog-one-content h6{
+   position: absolute;
+   background: #FF7A00;
+   padding: 10px 20px;
+   font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    /* or 112% */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.landing-blog .blog-one .blog-one-content p{
+   position: relative;
+   padding-left: 180px;
+   font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    /* or 147% */
+
+
+    color: #FFFFFF;
+}
+.landing-blog .blog-two{
+    background: url("img/Rectangle\ 11.png");
+    background-size: cover;
+    height: 150px;
+}
+.landing-blog .blog-two .blog-two-content{
+    padding-top: 50px;
+   
+}
+.landing-blog .blog-two .blog-two-content h6{
+   position: absolute;
+   background: #FF7A00;
+   padding: 5px 10px;
+   font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.landing-blog .blog-two .blog-two-content p{
+   position: relative;
+   padding-left: 100px;
+   font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 18px;
+    /* or 120% */
+
+
+    color: #FFFFFF;
+}
+.landing-blog .blog-three{
+    background: url("img/Rectangle\ 12.png");
+    background-size: cover;
+    height: 150px;
+}
+.landing-blog .blog-three .blog-three-content{
+    padding-top: 50px;
+   
+}
+.landing-blog .blog-three .blog-three-content h6{
+   position: absolute;
+   background: #FF7A00;
+   padding: 5px 10px;
+   font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.landing-blog .blog-three .blog-three-content p{
+   position: relative;
+   padding-left: 100px;
+   font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 18px;
+    /* or 120% */
+
+
+    color: #FFFFFF;
+}
+.landing-blog .blog-four{
+    background: url("img/Rectangle\ 13.png");
+    background-size: cover;
+    height: 150px;
+}
+.landing-blog .blog-four .blog-four-content{
+    padding-top: 50px;
+   
+}
+.landing-blog .blog-four .blog-four-content h6{
+   position: absolute;
+   background: #FF7A00;
+   padding: 5px 10px;
+   font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.landing-blog .blog-four .blog-four-content p{
+   position: relative;
+   padding-left: 100px;
+   font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 18px;
+    /* or 120% */
+
+
+    color: #FFFFFF;
+}
+.landing-blog .blog-five{
+    background: url("img/Rectangle\ 14.png");
+    background-size: cover;
+    height: 150px;
+}
+.landing-blog .blog-five .blog-five-content{
+    padding-top: 50px;
+   
+}
+.landing-blog .blog-five .blog-five-content h6{
+   position: absolute;
+   background: #FF7A00;
+   padding: 5px 10px;
+   font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.landing-blog .blog-five .blog-five-content p{
+   position: relative;
+   padding-left: 100px;
+   font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 18px;
+    /* or 120% */
+
+
+    color: #FFFFFF;
+}
